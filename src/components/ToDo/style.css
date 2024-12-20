@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif; /* Yazı tipini ayarlar */
+    margin: 0;
+    padding: 0;
+    background-color: #f7f9fc; /* Arka plan rengini açık mavi yapar */
+  }
+/* Uygulamanın ana container'ını düzenler */
+#container {
+    max-width: 600px; /* Uygulamanın genişliğini sınırlar */
+    margin: 50px auto; /* Ortalamak için üst ve alt boşluk verir */
+    padding: 20px; /* İçerikle kenarlar arasında boşluk bırakır */
+    background-color: #ffffff; /* Beyaz arka plan rengi */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif bir gölge ekler */
+    border-radius: 8px; /* Kenarları yuvarlatır */
+  }
+  
+  /* Başlık stilini düzenler */
+  #container h1 {
+    text-align: center; /* Ortalar */
+    color: #333333; /* Koyu gri renk */
+    margin-bottom: 20px; /* Altında boşluk bırakır */
+  }
+  
+  /* Giriş alanının ve butonun bulunduğu div stilini düzenler */
+  input {
+    width: calc(100% - 100px); /* Genişlik butona göre ayarlanır */
+    padding: 10px; /* İç boşluk */
+    border: 1px solid #ccc; /* Kenarlık */
+    border-radius: 4px; /* Kenarları yuvarlatır */
+    font-size: 16px; /* Yazı boyutu */
+  }
+  
+  /* Ekleme butonunun stilini düzenler */
+  button.btn {
+    padding: 10px 10px; /* İç boşluk */
+    margin-left: 10px; /* Giriş alanından boşluk bırakır */
+    margin-top: 10px;
+    background-color: #007bff; /* Mavi arka plan rengi */
+    color: white; /* Yazı rengi beyaz */
+    border: none; /* Kenarlık kaldırılır */
+    border-radius: 4px; /* Kenarları yuvarlatır */
+    cursor: pointer; /* İmleci "el" yapar */
+    font-size: 16px; /* Yazı boyutu */
+  }
+  
+  button.btn:hover {
+    background-color: #0056b3; /* Üzerine gelince koyu mavi */
+  }
+  
+  /* Listeyi düzenler */
+  ul {
+    list-style-type: none; /* Noktaları kaldırır */
+    padding: 0; /* İç boşluk kaldırılır */
+    margin: 0; /* Dış boşluk kaldırılır */
+  }
+  
+  /* Liste öğelerini düzenler */
+  ul li {
+    background-color: #f1f1f1; /* Açık gri arka plan */
+    margin: 10px 0; /* Üst ve alt boşluk */
+    padding: 10px; /* İçerik boşluğu */
+    border-radius: 4px; /* Kenarları yuvarlatır */
+    font-size: 16px; /* Yazı boyutu */
+    color: #333; /* Yazı rengi */
+  }
+  
+  ul li:nth-child(odd) {
+    background-color: #e9ecef; /* Alternatif renk tonu */
+  }
