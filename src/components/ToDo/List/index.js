@@ -1,11 +1,9 @@
-function List({todos}){
+import ListItem from "../ListItem"
+
+function List({todos, onDelete}){
     return(
         <div>
-            <ul>
-                {todos.map((todo,index)=>(
-                    <li key={index}>{todo}</li>
-                ))}
-            </ul>
+            <ListItem todos={todos} onDelete={onDelete}/>
         </div>
     )
 }

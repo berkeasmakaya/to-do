@@ -20,6 +20,7 @@ body {
     color: #333333; /* Koyu gri renk */
     margin-bottom: 20px; /* Altında boşluk bırakır */
   }
+
   
   /* Giriş alanının ve butonun bulunduğu div stilini düzenler */
   input {
@@ -62,8 +63,28 @@ body {
     border-radius: 4px; /* Kenarları yuvarlatır */
     font-size: 16px; /* Yazı boyutu */
     color: #333; /* Yazı rengi */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
-  ul li:nth-child(odd) {
-    background-color: #e9ecef; /* Alternatif renk tonu */
-  }
+
+ button.dlt-btn{
+    background-color: red;
+    border-radius: 4px;
+    color: #ffffff;
+    border: none;
+    padding: 8px 13px;
+    font-size: 16px;
+ }
+
+ #checkbox-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+
+ input[type="checkbox"] {
+  width: 16px;
+  height: 16px; /* Checkbox boyutu */
+}
